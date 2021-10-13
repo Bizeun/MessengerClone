@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital@1&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.outerBox {
+  height: 90%;
+  width: 50vw;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
+.outerBox-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px, 0px;
+}
+
+.outerBox-header__column:first-child {
+  position: absolute;
+  left: 10px;
+}
+
+.outerBox-myMusicList {
+  display: flex;
+  align-items: center;
+}
+
+.outerBox-myMusicList__column:first-child i {
+  margin: 20px;
+}
+
+.outerBox-myMusicList__column:last-child h2 {
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+.myMusicList {
+  width: 20em;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 1.1;
+  font-family: 'Oswald', sans-serif;
+}
+
+.outerBox-butn {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button:first-child {
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  border-color: black;
+  border-bottom-width: thick;
+}
+
+button:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  border-bottom-width: 4px;
+  border-color: black;
+  border-radius: 50%;
+}
+
+button:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  border-bottom-width: 4px;
+  border-color: black;
+  border-radius: 50%;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  margin: 20px;
+}
+
+.outerBox-songList__information {
+  margin-left: 20px;
+  width: 20em;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 1.1;
+}
+.outerBox-songList__information h2 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.albumBackground1 {
+  background-image: url(https://lh3.googleusercontent.com/HD2RXcgEO4uCgpe6_1TBEd8VviggmvWqqwuSbwMtIdqF2rGqOskUEtlrQZI0FoyYWCamApcMIn30yEMN=w544-h544-l90-rj);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.albumBackground2 {
+  background-image: url(https://lh3.googleusercontent.com/TMbA3LImAL96nFkm5cI1x6LiEMvMbRg4IRxEeABd9qpXsfmwKhZHRD1MucnjG5QIsVEp0Vpn7h7M51FH3Q=w544-h544-l90-rj);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.albumBackground3 {
+  background-image: url(https://lh3.googleusercontent.com/LDjFD-70y9c3aYL3-2zTUXkmlWfNlryJllQpHZLxZgi0i73pGx9JaJkNzDTo2LO9cGBDJx7E4eWdytMA=w544-h544-l90-rj);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.albumBackground4 {
+  background-image: url(https://lh3.googleusercontent.com/gsVwacOU9I_x7IvCz3AxBudCrhvh4i0N0ncjBwVMolEAtBBSPO4yDRmy8AqkTnGNPeeYklRjcqS_2n8=w544-h544-l90-rj);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
