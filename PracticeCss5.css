@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:ital@1&display=swap');
+@import 'reset.css';
+
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 100%;
+}
+
+.library-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #ffce33;
+  padding-bottom: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.library-header__column {
+  margin: 20px;
+  width: 33%;
+}
+
+.library-header__column:first-child {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.library-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.library-header__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+
+form {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  bottom: -30px;
+  width: 80%;
+  height: 50%;
+  border-radius: 30px;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+.searching-box {
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+  border-style: none;
+  opacity: 0.7;
+}
+
+.searching-box:focus {
+  outline: none;
+  opacity: 1.5;
+  font-weight: 600;
+}
+
+button {
+  background-color: white;
+  border: none;
+  width: 10%;
+  height: 80%;
+  opacity: 0.5;
+}
+
+.today-book {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+.today-book h2 {
+  font-size: 40px;
+}
+
+.today-book__layout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.today-book__bookcover {
+  background-image: url(http://image.kyobobook.co.kr/images/book/large/332/l9788937834332.jpg);
+  width: 150px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px 0;
+}
+.today-book__inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.today-book__title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.8;
+  margin: 0 10px;
+}
+.today-book__information {
+  opacity: 0.7;
+  font-family: 'Playfair Display', serif;
+  margin: 0 10px;
+}
+.book-gerne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.star-rate {
+  margin: 10px;
+}
+.book-gerne__column {
+  background-color: #f7f7f7;
+  padding: 5px 20px;
+  margin: 10px;
+}
+.book-mark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+.bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffce33;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+}
+
+.booking {
+  background-color: black;
+  border-radius: 5px;
+  height: 50px;
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.library-topAdventures {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 5%;
+}
+
+.library-topAdventures h2 {
+  font-size: 40px;
+}
+.topAdventures__list {
+  width: 90%;
+  margin: 20px 0;
+  overflow-x: scroll;
+}
+.book-list {
+  width: 120%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.book-list__book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.book-list__book:first-child {
+  width: 100px;
+  height: 150px;
+  background-image: url(http://image.kyobobook.co.kr/images/book/large/674/l9788990247674.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+.book-list__book:nth-child(2) {
+  width: 100px;
+  height: 150px;
+  background-image: url(http://image.kyobobook.co.kr/images/book/large/800/l9791162540800.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+.book-list__book:nth-child(3) {
+  width: 100px;
+  height: 150px;
+  background-image: url(http://image.kyobobook.co.kr/images/book/large/663/l9788937833663.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+.book-list__book:nth-child(4) {
+  width: 100px;
+  height: 150px;
+  background-image: url(http://image.kyobobook.co.kr/images/book/large/452/l9791164136452.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.book-list__rate {
+  font-size: 10px;
+  position: absolute;
+  bottom: -20px;
+}
+
+.popular-authors {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.popular-authors h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.popular-authors__layout {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.popular-authors__image {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Tolkien_1916.jpg);
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.popular-authors__name {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0 20px;
+}
+.popular-authors__desription {
+  opacity: 0.7;
+  line-height: 1.1;
+  font-family: 'Playfair Display', serif;
+  margin: 10px 20px 0 20px;
+}
