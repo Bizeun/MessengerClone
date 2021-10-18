@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="screen-header__icons-cog">
+          <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+          <span class="screen-header__notification badge__sm"></span>
+        </span>
+        
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/43a07e65f573eb41fffe67ac0d1008fa73b5c7a04a004ff9004ddf0680524c5c5bd8a30c724fd7966bd7d3a2f60d0bd17c3cc159dd41f704f9b6dc188a21346ddf4e7375d84e86c2efcdd586fdd08c64ffe93f92d9ab82175de508351c7fb475b46e9b8975fbaf11244840e2315b7372"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Korea</h4>
+            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/43a07e65f573eb41fffe67ac0d1008fa73b5c7a04a004ff9004ddf0680524c5c5bd8a30c724fd7966bd7d3a2f60d0bd17c3cc159dd41f704f9b6dc188a21346ddf4e7375d84e86c2efcdd586fdd08c64ffe93f92d9ab82175de508351c7fb475b46e9b8975fbaf11244840e2315b7372"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Korea
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/82e8f0ba23b7861b4ae69bcf0523076d2151136ad3591c81e8cb49e563a6c46a9faaaa519f1f60a1f581714ddcf63c8c8c22d79c9e93ba0b010ca00663baf829862dc8301426dc0b164b283f6aa875d61b76150e2866e95670861f0de9321cb612e9e794a149a02214ab251831d80ecb"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                United States
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__column-song">
+              <div>
+                <span class="user-component__column-songname">Bon Jovi - It's my life</span> 
+                <i class="far fa-play-circle"></i>
+              </div>
+              <i class="fas fa-chevron-right fa-xs"></i>          
+            </div>
+            
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/eb6b54ab93ea2f7c6c0247a5b87896db1f93f18c628d5b0d1ff25103aa1b2e9482edebf31f882ec0472dfd32928666ca195d18002a0ec8c8e6b7d9984e0ab948dd1b25eb2078c5326fc530af4a9d58cdcef86f9d365c98e408a0963ecc29bc335d5460ec6ce206e9f90629667081644d"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Japan
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>1</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/efeda0494c58894d239525a23f02d68ed6618857e6ea60897f4ce49be92ec7e0ac314d888a459673d9ef7f8bd78db98d9bfc6cf20db6e6427fb85827154dfa785a464cab919b4906352c54b1e271a5b74c28c1c27c6eab5bc4d8dbc28e0380de"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                United Kingdom
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>1</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">2</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <img src="https://w.namu.la/s/40549c83a02717c25ed05eb17d1be670cbfa442177ed9186d8ca807f47894697325088bfe26ea0184aebc01c36b94f398ca7da065fee4703dac51a7c794f379a8c115465a13626e6d8c7f2cd8fa65168d38b9f701d283d1f2100d302c0633f87d0a2d14a13f6bc8147ed73fa3d3f5942"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is so big that you have to reduce your screen</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

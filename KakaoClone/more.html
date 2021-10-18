@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">        
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-qrcode fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="screen-header__icons-cog">
+          <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+          <span class="screen-header__notification badge__sm"></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/43a07e65f573eb41fffe67ac0d1008fa73b5c7a04a004ff9004ddf0680524c5c5bd8a30c724fd7966bd7d3a2f60d0bd17c3cc159dd41f704f9b6dc188a21346ddf4e7375d84e86c2efcdd586fdd08c64ffe93f92d9ab82175de508351c7fb475b46e9b8975fbaf11244840e2315b7372"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Republic of Korea</h4>
+            <h6 class="user-component__subtitle">+82) *** ****</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="wallet">
+        <div class="wallet-header">
+          <h1 class="wallet__title">
+            Wallet
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </h1>          
+          <div class="screen-header__icons">        
+            <span><i class="fas fa-stamp"></i></span>
+            <span><i class="fas fa-qrcode fa-lg"></i></span>
+          </div>
+        </div>
+        <div class="wallet-header">
+          <button class="wallet-header__covid covid">
+            <div>
+              <i class="fas fa-viruses"></i>
+            <span>Covid-19 Outbreak</span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-right fa-sm"></i>
+            </div>
+          </button>
+        </div>
+        
+        <div class="wallet-header">
+          <div class="wallet__subtitle">
+            Pay
+            <img src="https://w.namu.la/s/1704c0e1ac5bd52ff9275749642c877961c1abca1412016e23cf89dd6b7e22be78b8086d6cb584fb052fb9ad0ba415f3037fce08e72f6705366d7ee57227b9d8c08d9825dfcdab5ea3c2f3c9a3ab83b9a383c3ea28d15d36123958aa2542c109">
+          </div>          
+          <div class="screen-header__icons wallet-subtitle__detail">        
+            0 won
+          </div>
+        </div>
+        <div class="wallet-header">
+          <div class="wallet__subtitle">
+            <span>Deposit</span>
+            <span>Pay Bills</span>
+            <span>Asset</span>
+          </div>         
+          <div class="screen-header__icons wallet-subtitle__detail">        
+            <span><i class="fas fa-shopping-cart"></i></span>
+            Payment History
+          </div>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-grin-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <span class="icon-row__icon-mail">
+            <i class="fas fa-mail-bulk"></i>
+            <span class="icon-row__notification badge__sm"></span>
+          </span>
+          <span>Mail</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-utensils"></i>
+          <span>Food</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-hand-holding-usd"></i>
+          <span>Money</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-university"></i>
+          <span>Education</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-book"></i>
+            </div>
+            <span class="more-suggestions__icon-text">UN Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-globe"></i>
+            </div>
+            <span class="more-suggestions__icon-text">UN Council</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">2</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is so big that you have to reduce your screen</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
